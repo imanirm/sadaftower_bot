@@ -3,7 +3,7 @@ import telebot
 import random
 import os
 
-TOKEN = os.environ.get("8242474574:AAHLjAgfU3NEmhjUIvNrDGjvkz98UYSxYG4", "")
+TOKEN = os.environ.get("BOT_TOKEN", "")
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
